@@ -1,8 +1,7 @@
-import { useState } from 'react'
-
+import Homepage from './pages/homepage'
 function App() {
     return (
-        <div className="bg-blue-900">VR Laurier</div>
+        <Homepage />
     )
 }
 
