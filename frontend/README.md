@@ -1,4 +1,15 @@
-## How to start developing
-npm run dev 
-## Tools Used
-Vite, TailwindCSS, React + JS
+# VR Laurier Website
+
+Website for VR Laurier.
+
+Built with Next.js 15, TypeScript, and Tailwind CSS.
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+
+
