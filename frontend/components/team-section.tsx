@@ -90,8 +90,13 @@ export function TeamSection() {
 
           return (
             <div key={catIndex} className="mb-20">
-              <h3 className="text-2xl font-semibold text-center mb-8 text-foreground">
-                {category.title}
+              <h3
+              className={`text-2xl font-semibold text-center mb-8 text-foreground transition-all duration-1000 ${
+                isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              }`}
+              style={{ transitionDelay: `${catIndex * 100}ms` }}
+              >
+              {category.title}
               </h3>
 
               {/*vp row — centered and closer together */}
